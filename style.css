@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body { 
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+#cabecalho img { 
+    height: 100px;
+}
+.menu { 
+    display: flex;
+    gap: 32px;
+}
+.menu li { 
+    list-style: none;
+
+}
+.menu li a { 
+    color: #FFF2E7;
+}
+#conteudo-principal { 
+    margin-bottom: 20px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+#conteudo-principal-primario { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-primario {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.titulo-principal { 
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+.subtitulo-principal { 
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+.button-principal { 
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 185px;
+    height: 67px;
+    border: none;
+    /*Edição texto*/
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: #2F2325;
+}
+.button-principal:hover { 
+    background-color: rgba(236, 214, 196, 0.53);
+}
+#conteudo-principal-secundario { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-secundario { 
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.titulo-secundario { 
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+    margin-top: 48px;
+    border-top:  0.4px solid #FFF2E7;
+    padding-top: 30px;
+    margin-bottom: 16px;
+}
+.paragrafo-secundario { 
+    font-family: 'Sarala';
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+    margin-bottom: 20px;
+}
+
+.rodape { 
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 20px;
+}
+.rodape img { 
+    display: block;
+    margin: 0 auto;
+}
+
+/*Media Queries*/  
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #cabecalho {
+        font-weight: 400;
+        font-size: 10px;
+        flex-direction: column;
+    }
+    #cabecalho img { 
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .menu { 
+        gap: 32px;
+    }
+    .menu li { 
+        list-style: none;
+    
+    }
+    .menu li a { 
+        color: #FFF2E7;
+    }
+    #conteudo-principal-primario {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .image-robot {
+        height: 200px;
+    }
+    .rodape { 
+        margin-bottom: 10px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    body { 
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
