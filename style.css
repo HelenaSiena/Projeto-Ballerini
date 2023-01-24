@@ -133,20 +133,11 @@ body {
         height: 60px;
         margin-bottom: 10px;
     }
-    .menu { 
-        gap: 32px;
-    }
-    .menu li { 
-        list-style: none;
-    
-    }
-    .menu li a { 
-        color: #FFF2E7;
-    }
     #conteudo-principal-primario {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
+        margin-left: 24px;
     }
     .image-robot {
         height: 200px;
